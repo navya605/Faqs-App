@@ -1,0 +1,27 @@
+/* Write your code here. */
+.list-item {
+  border: 1px solid #d7dae6;
+  border-radius: 8px;
+  margin: 15px;
+  padding: 20px;
+  width: 100%;
+}
+.list-item-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #52606d;
+}
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  cursor: pointer;
+  outline: none;
+}
+.list-item-desc {
+  color: #52606d;
+  font-family: 'Roboto';
+}
